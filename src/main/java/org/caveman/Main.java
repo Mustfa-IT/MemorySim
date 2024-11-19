@@ -1,10 +1,9 @@
 package org.caveman;
 
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-
 public class Main {
     public static void main(String[] args) {
-
+        App app = new App();
+        app.init();
+        app.start();
     }
 }
